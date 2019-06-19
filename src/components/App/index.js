@@ -22,6 +22,7 @@ const App = () => (
 		<Navigation />
 
 		<hr />
+		//componentes que se ejecutaran segun las rutas
 		<Route exact path={ROUTES.LANDING} component={LandingPage} />
 		<Route path={ROUTES.SIGN_UP} component={SignUpPage} />
 		<Route path={ROUTES.SIGN_IN} component={SignInPage}/>
